@@ -1,0 +1,39 @@
+
+#container {
+  /* background-color: red; */
+  position: relative;
+  /* border: 2px solid blue; */
+  height: 137vh;
+  width: 141vh;
+  margin: auto;
+  background-image: url(/rTjKp5Kec.jpg) ;
+  /* background-image: ; */
+  background-size: 100%;
+}
+#hour,
+#min,
+#sec {
+  transform-origin: bottom;
+  position: absolute;
+  background: rgb(94, 133, 212);
+  left: 50%;
+}
+#hour {
+  height: 24vh;
+  width: 6vh;
+  
+  top:35%;
+  background-color: red;
+}
+#min {
+  height: 40vh;
+  width: 4vh;
+  top:23%;
+  /* top:164px; */
+}
+#sec {
+  height: 48vh;
+  width: 2vh;
+  top:17%;
+  /* top:122px; */
+}

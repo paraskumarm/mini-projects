@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Finlandica&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+.body{
+    /* background: url(images/board.png) no-repeat; */
+    background: rgb(97, 157, 97);
+    min-height: 100vh;
+    min-width: 100vw;
+    border: 4px solid red;
+    background-size: 50vw 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#board{
+ 
+    height: 100vh;
+    width: 100vw;
+    border: 4px solid blue;
+    background: linear-gradient(green,yellow);
+    width: 90vmin;
+    height: 90vmin;
+    display: grid;
+    grid-template-columns: repeat(18,1fr);
+    grid-template-rows: repeat(18,1fr);
+}
+
+.head{
+    background:linear-gradient(red,purple);
+    border: 2px solid greenyellow;
+    border-radius: 10px;
+    transform: scale(1.04);
+}
+.snake{
+    background:linear-gradient(orange,black);
+    border: 2px solid greenyellow;
+    border-radius: 10px;
+}
+.food{
+    background:linear-gradient(red,black);
+    border: 2px solid greenyellow;
+    border-radius: 10px;
+}
+#scoreval{
+    position: absolute;
+    top: 9px;
+    right: 200px;
+    font-size: 39px;;
+}
